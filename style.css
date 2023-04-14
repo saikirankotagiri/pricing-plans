@@ -1,0 +1,90 @@
+/*  #fd5901,
+    #f78104,
+    #faab36,
+    #249ea0,
+    #008083
+    #005f60 
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* position: relative; */
+}
+/* main header */
+.main-header {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* company logo */
+.home-image {
+  width: 50px;
+  height: 50px;
+}
+
+.brand-name {
+  font-family: cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #005f60;
+}
+
+.main-nav {
+  margin: 5px 10px;
+}
+.main-nav__items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-nav__item__link {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid lightgreen;
+  font-weight: bold;
+}
+
+.main-nav__item__link:hover,
+.main-nav__item__link:active {
+  background-color: teal;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background-color: #f78104;
+  border-radius: 5px;
+}
+
+/* plans */
+
+.plans {
+}
+
+.plans::before {
+  content: "";
+  background-image: url("flower-animationsvg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  position: absolute;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.details {
+}
